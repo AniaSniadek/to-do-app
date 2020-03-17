@@ -17,7 +17,7 @@ class App extends Component {
       {
         id: 1,
         text: 'Do the laundry',
-        date: new Date().getTime(),
+        date: new Date().toLocaleDateString(),
         important: false,
         active: true,
         finishDate: null
@@ -65,9 +65,13 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <AddTask click={this.addTask} />
-        <TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus} />
+      <div className="container text-center">
+        <div className="row">
+          <div className="col-md-12">
+            <AddTask click={this.addTask} />
+            <TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus} />
+          </div>
+        </div>
       </div>
     );
   }

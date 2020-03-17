@@ -51,19 +51,27 @@ class AddTask extends Component {
         maxDate = maxDate + '-12-31'
 
         return (
+           <React.Fragment>
             <div className='form'>
+            <div className="form-group">
                 <input 
                 type="text" 
                 placeholder="Add task.." 
                 value={this.state.text} 
-                onChange={this.handleTextChange} />
+                onChange={this.handleTextChange}
+                className="form-control" />
+            </div>
+            <div className="form-check">
                 <input 
                 type="checkbox" 
                 checked={this.state.checked} 
                 id="important" 
-                onChange={this.handleCheckboxChange} /> 
-                <label htmlFor="important">Priority</label>
-                <br />
+                onChange={this.handleCheckboxChange} 
+                className="form-check-input"
+                /> 
+                <label htmlFor="important" className="form-check-label">Priority</label>
+            </div>
+            <div className="form-group">
                 <label htmlFor="date">Due date: </label>
                 <input 
                 type="date" 
@@ -71,11 +79,13 @@ class AddTask extends Component {
                 value={this.state.date} 
                 min={this.minDate} 
                 max={maxDate} 
-                onChange={this.handleDateChange} />
-                <br />
-                <button onClick={this.handleClick}>ADD</button>
+                onChange={this.handleDateChange}
+                className="form-control" />
+            </div>
+                <button onClick={this.handleClick} type="submit" className="btn btn-primary">ADD</button>
                 <hr />
             </div>
+            </React.Fragment>
         );
     }
 }
