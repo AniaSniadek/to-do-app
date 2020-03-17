@@ -9,7 +9,7 @@ class App extends Component {
       {
         id: 0,
         text: 'Finally play The Witcher 3',
-        date: new Date().getTime(),
+        date: new Date().toLocaleDateString(),
         important: true,
         active: true,
         finishDate: null
