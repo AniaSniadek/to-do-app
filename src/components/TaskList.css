@@ -4,3 +4,7 @@
 .done {
     text-align: center;
 }
+
+.task-title {
+    margin: 30px 0;
+}
