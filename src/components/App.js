@@ -65,13 +65,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container text-center">
-        <div className="row">
-          <div className="col-md-12">
+      <div className="container">
+      <div className="row d-flex justify-content-center">
+          <div className="col-md-6">
+            <h1 className="title">To-Do Application</h1>
             <AddTask click={this.addTask} />
             <TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus} />
           </div>
-        </div>
+      </div>
       </div>
     );
   }

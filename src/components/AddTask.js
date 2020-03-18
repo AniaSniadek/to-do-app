@@ -53,6 +53,7 @@ class AddTask extends Component {
         return (
            <React.Fragment>
             <div className='form'>
+            <div className="row d-flex justify-content-center">
             <div className="form-group">
                 <input 
                 type="text" 
@@ -71,8 +72,12 @@ class AddTask extends Component {
                 /> 
                 <label htmlFor="important" className="form-check-label">Priority</label>
             </div>
-            <div className="form-group">
+            </div>
+            <div className="row d-flex">
+            <div className="form-group date-label">
                 <label htmlFor="date">Due date: </label>
+            </div>
+            <div className="form-group date-input">
                 <input 
                 type="date" 
                 id="date" 
@@ -82,7 +87,10 @@ class AddTask extends Component {
                 onChange={this.handleDateChange}
                 className="form-control" />
             </div>
+            </div>
+            <div className="row d-flex justify-content-center">
                 <button onClick={this.handleClick} type="submit" className="btn btn-primary">ADD</button>
+            </div>
                 <hr />
             </div>
             </React.Fragment>
