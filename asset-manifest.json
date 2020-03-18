@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "//speedy09.github.io/to-do-app/static/css/main.398af477.chunk.css",
+    "main.js": "//speedy09.github.io/to-do-app/static/js/main.d7498606.chunk.js",
+    "main.js.map": "//speedy09.github.io/to-do-app/static/js/main.d7498606.chunk.js.map",
+    "runtime-main.js": "//speedy09.github.io/to-do-app/static/js/runtime-main.6e86c58b.js",
+    "runtime-main.js.map": "//speedy09.github.io/to-do-app/static/js/runtime-main.6e86c58b.js.map",
+    "static/css/2.de424728.chunk.css": "//speedy09.github.io/to-do-app/static/css/2.de424728.chunk.css",
+    "static/js/2.36ab2cd3.chunk.js": "//speedy09.github.io/to-do-app/static/js/2.36ab2cd3.chunk.js",
+    "static/js/2.36ab2cd3.chunk.js.map": "//speedy09.github.io/to-do-app/static/js/2.36ab2cd3.chunk.js.map",
+    "index.html": "//speedy09.github.io/to-do-app/index.html",
+    "precache-manifest.0e6dbdd2be7c0ada411f73149032722d.js": "//speedy09.github.io/to-do-app/precache-manifest.0e6dbdd2be7c0ada411f73149032722d.js",
+    "service-worker.js": "//speedy09.github.io/to-do-app/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "//speedy09.github.io/to-do-app/static/css/2.de424728.chunk.css.map",
+    "static/css/main.398af477.chunk.css.map": "//speedy09.github.io/to-do-app/static/css/main.398af477.chunk.css.map",
+    "static/js/2.36ab2cd3.chunk.js.LICENSE.txt": "//speedy09.github.io/to-do-app/static/js/2.36ab2cd3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e86c58b.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.36ab2cd3.chunk.js",
+    "static/css/main.398af477.chunk.css",
+    "static/js/main.d7498606.chunk.js"
+  ]
+}
