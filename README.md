@@ -5,5 +5,4 @@ This project was generated with [Create React App](https://github.com/facebook/c
 
 ## Built With
 * [React](https://reactjs.org/)
-* [Bootstrap](https://getbootstrap.com/)
 
